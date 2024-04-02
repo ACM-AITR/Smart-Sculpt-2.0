@@ -16,7 +16,7 @@ void setup() {
   pinMode(in3,OUTPUT);
   pinMode(in4,OUTPUT);
   Serial.begin(115200);
-  SerialBT.begin("Arduino Mega"); //Bluetooth device name
+  SerialBT.begin("ESP 32"); //Bluetooth device name - You can give any name
   Serial.println("The device started, now you can pair it with bluetooth!");
 }
 
